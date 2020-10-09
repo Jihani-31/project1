@@ -1,0 +1,46 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.fund-details{
+     margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 20%;
+}
+
+
+.table {
+    height:250px;
+    overflow:auto;
+}
+
+.selected {
+
+
+  display: flex;
+    margin-bottom: 40px; 
+}
+
+.selected-funds {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.value{
+padding-top: 5px;
+  height: 30px;
+  margin-left: 30px;
+}

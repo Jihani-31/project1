@@ -1,0 +1,65 @@
+
+.form {
+margin-top: 10%;
+margin-left: 30%;
+margin-right: 20%;
+    float: left;
+
+}
+
+input, select, textarea  {
+    margin: 10px;
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border-width: 1.5px;
+}
+
+ label {
+        padding-top: 15px;
+     float: left;
+     width: 25%;
+     height: 30px;
+    
+    
+ }
+
+ #address {
+     height: 80px;
+    
+ }
+
+ .submit-button {
+     background-color: rgb(43, 189, 252);
+     padding: 5px;
+     width: 12%;
+    margin-left: 85%;
+    border-radius: 5px;
+    outline: none;
+    border-color: dodgerblue;
+ }
+
+ 
+ small {
+  visibility: hidden;
+  color: black;
+}
+
+
+.success input {
+  border-color: #2ecc71;
+
+}
+.success small {
+visibility: hidden;
+}
+.error input {
+  border-color: #e74c3c;
+  
+}
+.error small {
+  color: #e74c3c;
+  visibility: visible;
+}
+

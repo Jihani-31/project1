@@ -1,0 +1,43 @@
+
+
+.form {
+margin-top: 10%;
+margin-left: 40%;
+margin-right: 5%;
+    float: left;
+
+}
+
+select , button {
+    position: relative;
+    margin: 10px;
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border-width: 1.5px;
+}
+
+ label {
+     float: left;
+     margin-right: 5%;
+  padding-top: 15px;
+     width: 25%;
+     height: 30px;
+    
+    
+ }
+
+
+
+ .submit-button {
+     background-color: rgb(43, 189, 252);
+     /* padding: 5px; */
+     /* width: 10%; */
+     /* margin-right: 40%; */
+    margin-left: 31%;
+    height: 30px;
+    border-radius: 5px;
+    /* outline: none; */
+    border-color: dodgerblue;
+ }

@@ -1,0 +1,166 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+nav{
+	background: #000040;
+	height: 80px;
+	width: 100%;
+	box-shadow: 5px 6px 6px #888888;
+}
+
+label.logo{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+a:active,a:hover{
+	background: #1b9bff;
+	transition: .5s;
+}
+
+@media (max-width: 925px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a{
+		font-size:30px ; 
+	}
+}
+
+.sidebar {
+	position: fixed;
+	top: 90px;
+	left: 10px;
+	width: 280px;
+	height: 76%;
+	background: #000040;
+	border-right: 2px solid #000060;
+	box-shadow: 5px 6px 6px #888888;
+}
+
+.sidebar_link {
+	display: flex;
+	align-items: center;
+	background: #000060;
+	color: #ffffff;
+	padding: 12px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.125rem;
+	border-bottom: 1px solid #000040;
+}
+.sidebar_link .material-icons {
+	margin-right: 12px;
+}
+
+footer{
+	position: fixed;
+	padding-top: 2px;
+	bottom: 0px;
+	width: 100%;
+	color: #ffffff;
+	text-align: justify;
+	background: #000040;
+}
+footer h4{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 0.825rem;
+	font-weight: 500;
+}
+
+.box h2{
+	font-size: 1rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.log_button{
+	color:#ff2222;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+}
+
+.col-50 {
+    float: left;
+    width: 50%;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+}
+
+.col-100 {
+    float: left;
+    width: 100%;
+}
+
+.col-20{
+	float: left;
+    width: 20%;
+}
+
+.col-30 {
+    float: left;
+    width: 30%;
+}
+
+.col-70 {
+    float: left;
+    width: 70%;
+}
+
+.col-80{
+	float: left;
+    width: 80%;
+}
+
+.error {
+    color: red;
+	font-style: italic;
+	font-size: small;
+	padding-top: 0;
+	padding-left: 10px;
+
+}

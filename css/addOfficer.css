@@ -1,0 +1,42 @@
+
+
+.form {
+margin-top: 5%;
+margin-left: 35%;
+margin-right: 20%;
+    float: left;
+
+}
+
+input, select, textarea  {
+    margin: 10px;
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border-width: 1.5px;
+}
+
+ label {
+     padding-top: 15px;
+     float: left;
+     width: 25%;
+     height: 30px;
+    
+    
+ }
+
+.buttons{
+margin-right: 25px;
+    float: right;
+}
+
+
+ .confirm-button, .view-list-button {
+     background-color: rgb(43, 189, 252);
+     padding: 5px 10px;
+   
+    border-radius: 5px;
+    outline: none;
+    border-color: dodgerblue;
+ }
